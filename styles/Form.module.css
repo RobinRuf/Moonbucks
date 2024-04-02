@@ -1,0 +1,42 @@
+.contentSection form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.contentSection form input,
+.contentSection form button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.contentSection form textarea {
+  height: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  resize: vertical;
+}
+
+.contentSection form button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.contentSection form button:disabled {
+  background-color: #9e9e9e;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+@media (max-width: 768px) {
+  .contentSection form {
+    width: 90%;
+  }
+}

@@ -1,0 +1,31 @@
+.cookieBar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+.cookieBar p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.cookieBar button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cookieBar button:hover {
+  background-color: #45a049;
+}
