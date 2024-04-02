@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1400px;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 2rem;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s;
+  font-size: 1.1rem;
+}
+
+.navigation a:hover {
+  color: #ADD8E6;
+}
+
+.navLink.active {
+  color: #ADD8E6;
+  font-weight: bold;
+}
+
+.menuIcon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  z-index: 20;
+}
+
+.navigationActive {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+  .menuIcon {
+    display: block;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .navigationActive a {
+    margin: 0 auto;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+}

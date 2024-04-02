@@ -1,0 +1,24 @@
+.footer {
+  background-color: #fff;
+  width: 100%;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer h5 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.footer address {
+  margin: 0 0 10px;
+  font-style: normal;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
