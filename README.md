@@ -1,3 +1,5 @@
+### NOTE: This was a Project for a Frontend Development Module that I did in a few hours at school - not my best work at all.
+
 ## STEP BY STEP GUIDE
 
 ### Cloning the Repository
